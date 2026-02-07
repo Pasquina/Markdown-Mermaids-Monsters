@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta charset="utf-8" />
+    <title>Markdown, Mermaids, Monsters - Markdown, Mermaids, Monsters</title>
+
+        <meta name="keywords" content="Markdown, Mermaid, Glossary" />
+            <meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1" />
+    <link rel="stylesheet" type="text/css" href="/Mermaid/_docmonster/themes/scripts/bootstrap/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="/Mermaid/_docmonster/themes/scripts/fontawesome/css/font-awesome.min.css" />
+    <link id="AppCss" rel="stylesheet" type="text/css" href="/Mermaid/_docmonster/themes/Dharkan/docmonster.css" />
+    
+
+    <script src="/Mermaid/_docmonster/themes/scripts/jquery/jquery.min.js"></script>
+
+    <script src="/Mermaid/_docmonster/themes/scripts/highlightjs/highlight.pack.js"></script>
+    <script src="/Mermaid/_docmonster/themes/scripts/highlightjs-badge.min.js"></script>
+    <link href="/Mermaid/_docmonster/themes/scripts/highlightjs/styles/vs2015.css" rel="stylesheet" />
+
+    <script src="/Mermaid/_docmonster/themes/scripts/ww.jquery.min.js"></script>
+
+    <script src="/Mermaid/_docmonster/themes/scripts/bootstrap/bootstrap.bundle.min.js" async></script>
+    <script src="/Mermaid/_docmonster/themes/scripts/lunr/lunr.min.js"></script>
+
+    <script>
+        window.page = {};
+        window.page.basePath = "/Mermaid/";     
+
+        window.renderTheme="light";    
+    </script>
+    <script src="/Mermaid/_docmonster/themes/scripts/docmonster.js"></script>
+
+    
+    <script>
+        document.addEventListener("DOMContentLoaded", () => {
+            helpBuilder.initializeLayout();
+            setTimeout(helpBuilder.tocExpandTop, 5);
+
+            // You can customize Mermaid config here
+            mermaidLoader('https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js', null);
+        }); 
+    </script>
+
+    <style>
+        .toc li .fa-arrow-up-right-from-square {
+            font-size: 0.7em;
+            color: goldenrod;
+            margin-left: 0.1em;
+        }
+
+        pre.mermaid {
+            border: none !important;
+        }
+    </style> 
+
+    <topictype value="index" />
+
+    <meta property="og:title" content="Markdown, Mermaids, Monsters - Markdown, Mermaids, Monsters" />
+        <meta property="og:type" content="article" />
+
+        <meta name="twitter:card" content="summary">
+    <meta property="og:image"
+        content="https://DocLib.VyDevSoft.com/Mermaid/images/logo.png" />
+    </head>
+<body>    
+    <!-- Markdown Monster Content -->    
+    <div class="flex-master">
+        <div class="banner">
+            <div class="float-end">
+                <button id="themeToggleBtn" type="button" onclick="toggleTheme()" 
+                        class="btn btn-sm btn-secondary theme-toggle"                        
+                        title="Toggle Light/Dark Theme">
+                    <i id="themeToggleIcon" 
+                       class="fa fa-moon text-warning">
+                    </i>
+                </button>                 
+            </div>
+
+            <div class="float-start sidebar-toggle">
+                <i class="fa fa-bars"
+                   title="Show or hide the topics list"></i>
+            </div>
+			
+            <img src="/Mermaid/images/logo.png" class="banner-logo" />
+            <div class="projectname"> Markdown, Mermaids, Monsters</div>
+
+            <div class="byline">                
+                <img src="/Mermaid/_docmonster/icons/index.png">
+                Markdown, Mermaids, Monsters
+            </div>
+        </div>
+        <div class="page-content">
+            <div id="toc-container" class="sidebar-left toc-content">
+                <nav class="visually-hidden">
+                    <a href="/Mermaid/tableofcontents.html">Table of Contents</a>
+                </nav>
+            </div>
+
+            <div class="splitter">
+            </div>
+
+            <nav class="topic-outline">
+                <div class="topic-outline-header">On this page:</div>
+                <div class="topic-outline-content"></div>
+            </nav>
+            
+            <div id="MainContent" class="main-content">                
+                <!-- Rendered Content -->
+
+
+                <article class="content-pane">
+                    <h1 class="content-title">
+    <img src="/Mermaid/_docmonster/icons/index.png">    
+    Markdown, Mermaids, Monsters
+</h1>
+
+<div class="content-body" id="body">
+    <h2 id="a-glossary-of-mermaid-diagrams-as-supported-by-markdown-monster">A Glossary of Mermaid Diagrams as Supported by Markdown Monster</h2>
+<h3 id="purpose">Purpose</h3>
+<p>Use this gloasary as a handy reference to the syntax and appearance that characterize each of the Mermaid Diagrams illustrated.</p>
+<h3 id="genesis">Genesis</h3>
+<p>The idea for this was suggested by developer buddy Michael Riley, who has aphantasia.<a id="fnref:1" href="#fn:1" class="footnote-ref"><sup>1</sup></a> This means that Mike is unable to visualize images in his mind but also means that he relies more on his ability to understand structure than most of us. He has a different, and quite valuable way, of viewing things. This can be especially useful in the IT world, where structure, especially at what might be termed an architectural level, is becoming increasingly important.</p>
+<p>For individuals with aphantasia, diagrams can play an important role in their understanding of structure, since a diagram is not abstract, but rather is a concrete representation of a structure.</p>
+<h3 id="the-examples">The Examples</h3>
+<p>Each Mermaid diagram topic contains an example of the code used by Markdown Monster and Documentation Monster in support of Mermaid. This is followed by a rendering of the actual diagram itself. Finally, a brief statement of why the particular diagram is useful is often included.</p>
+<p>Mike and I are both Toastmasters<a id="fnref:2" href="#fn:2" class="footnote-ref"><sup>2</sup></a>, although belonging to clubs hundreds of miles apart. So it seemed natural to base many of the examples on our shared Toastmasters experience.</p>
+<blockquote>
+<p>Note that this Glossary is only a sampling of the extensive capabilities of Mermaid. For an exhaustive examination of Mermaid visit the Mermaid Documentation<a id="fnref:3" href="#fn:3" class="footnote-ref"><sup>3</sup></a></p>
+</blockquote>
+<h3 id="dedication">Dedication</h3>
+<p>This Glossary is respectfully dedicated to anyone who wants to expand their understanding of good system design, architecture and communication, and especially to all who may be in that small group of people we call <strong>aphantasic</strong> but I like to call <strong>aphantastic.</strong></p>
+<div class="footnotes">
+<hr />
+<ol>
+<li id="fn:1">
+<p>Aphantasia: Aphantasia (/ˌeɪfænˈteɪʒə/ ⓘ AY-fan-TAY-zhə, /ˌæfænˈteɪʒə/ AF-an-TAY-zhə) is the inability to voluntarily visualize mental images. From Wikipedia: <a href="https://en.wikipedia.org/wiki/Aphantasia">https://en.wikipedia.org/wiki/Aphantasia</a><a href="#fnref:1" class="footnote-back-ref">&#8617;</a></p>
+</li>
+<li id="fn:2">
+<p><a href="https://www.toastmasters.org/">https://www.toastmasters.org/</a><a href="#fnref:2" class="footnote-back-ref">&#8617;</a></p>
+</li>
+<li id="fn:3">
+<p><a href="https://mermaid.js.org/intro/">https://mermaid.js.org/intro/</a><a href="#fnref:3" class="footnote-back-ref">&#8617;</a></p>
+</li>
+</ol>
+</div>
+
+</div>
+
+
+                </article>
+
+                <hr />
+                <div class="float-end">
+                    <a href="http://documentationmonster.com" target="_blank"><img src="/Mermaid/_docmonster/images/docmonster.png" style="height: 2.5em"/></a>
+                </div>
+
+                <div class="footer">
+                     &copy; VyDevSoftware, 2026 &bull;
+                    updated: Feb 06, 2026
+                    <br />
+                                        <a href="mailto:support@vydevsoft.com?subject=Support: Markdown, Mermaids, Monsters - Markdown, Mermaids, Monsters&body=Project%3A%20Markdown%2C%20Mermaids%2C%20Monsters%0ATopic%3A%20Markdown%2C%20Mermaids%2C%20Monsters%0A%0AUrl%3A%0Ahttps%3A%2F%2FDocLib.VyDevSoft.com%2FMermaid%2F_index.html">Comment or report problem with topic</a>
+                </div>
+                <br class="clearfix" />
+                <br />
+                <!-- End Rendered Content -->
+<div style="margin: 2em 0 3em 0; left:0; right: 0;font-size: 8.75pt;border-top: 1px solid #eee;padding-top: 5px;cursor: pointer;"
+     title="This message doesn't display in the registered version of Documentation Monster." onclick="window.open('https://documentationmonster.com')">
+    <img src="https://documentationmonster.com/favicon.png"
+         style="height: 27px;float: left; margin-top: 4px;margin-right: 10px;"/>
+    created with the <b>evaluation version</b> of
+    <a href="https://documentationmonster.com"
+       target="top">Documentation Monster</a>.</br>Please register your copy.
+</div>                    
+            </div>
+        </div>
+    </div>
+
+
+    <!-- End Markdown Monster Content -->
+
+</body>
+</html>
+
