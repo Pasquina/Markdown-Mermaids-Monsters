@@ -1,4 +1,4 @@
-###  Sequence Diagram – Temporal & Interaction Structure
+********###  Sequence Diagram – Temporal & Interaction Structure
 Great for conversations, protocols, and cause–effect chains.
 
 #### Code
