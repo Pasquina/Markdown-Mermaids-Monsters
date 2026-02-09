@@ -1,4 +1,4 @@
-# Markdown, Mermaids, Monsters\
+# Markdown, Mermaids, Monsters
 This is a demonstration project used to illustrate a blog post I wrote abaout the West Wind Technologies *8Documentation Monster** product.
 
 The demo documentation is installed and may be viewed onlline at https://DocLib.VyDFevSoft.com/Mermaids/
